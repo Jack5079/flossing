@@ -1,0 +1,20 @@
+{"dir" : "ltr",
+    "lang" : "en",
+    "name" : "😂 I BE FLOSSING 😂",
+    "scope" : "/",
+    "display" : "standalone",
+    "start_url" : "https://flossing.tk/",
+    "short_name" : "😂 I BE FLOSSING 😂",
+    "theme_color" : "transparent",
+    "description" : "do the flossing dance",
+    "orientation" : "any",
+    "background_color" : "transparent",
+    "related_applications" : "",
+    "prefer_related_applications" : "false",
+    "generated" : "true",
+    "icons" : [
+        {
+            "src": "https://flossing.tk/favicon.ico",
+            "sizes": "256x256"
+        }
+    ]}
