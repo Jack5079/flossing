@@ -5,7 +5,7 @@
     "display" : "standalone",
     "start_url" : "https://flossing.tk/",
     "short_name" : "😂 I BE FLOSSING 😂",
-    "theme_color" : "transparent",
+    "theme_color" : "#2196F3",
     "description" : "do the flossing dance",
     "orientation" : "any",
     "background_color" : "transparent",
