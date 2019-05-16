@@ -9,8 +9,8 @@
     "description" : "do the flossing dance",
     "orientation" : "any",
     "background_color" : "#FFDEEA",
-    "related_applications" : "",
-    "prefer_related_applications" : "false",
+    "related_applications" : [],
+    "prefer_related_applications" : false,
     "generated" : "true",
     "icons" : [
         {
