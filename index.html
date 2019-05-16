@@ -2,57 +2,57 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>😂 FLOSSING 😂</title>
-  <meta name="description" content="do the flossing dance" />
-  <meta property="og:title" content="😂 FLOSSING 😂" />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://flossing.tk" />
-  <meta property="og:image" content="https://flossing.tk/icon.png" />
-  <meta property="og:description" content="do the flossing dance" />
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-    }
-  </style>
-  <link rel="manifest" href="/manifest.json">
-  <meta name="theme-color" content="#C67BFC">
-  <script>
-    // This is the "Offline copy of pages" service worker
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>😂 FLOSSING 😂</title>
+	<meta name="description" content="do the flossing dance" />
+	<meta property="og:title" content="😂 FLOSSING 😂" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://flossing.tk" />
+	<meta property="og:image" content="https://flossing.tk/icon.png" />
+	<meta property="og:description" content="do the flossing dance" />
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+	</style>
+	<link rel="manifest" href="/manifest.json">
+	<meta name="theme-color" content="#C67BFC">
+	<script>
+		// This is the "Offline copy of pages" service worker
 
-    // Add this below content to your HTML page, or add the js file to your page at the very top to register service worker
+		// Add this below content to your HTML page, or add the js file to your page at the very top to register service worker
 
-    // Check compatibility for the browser we're running this in
-    if ("serviceWorker" in navigator) {
-      if (navigator.serviceWorker.controller) {
-        console.log("[PWA Builder] active service worker found, no need to register");
-      } else {
-        // Register the service worker
-        navigator.serviceWorker
-          .register("pwabuilder-sw.js", {
-            scope: "./"
-          })
-          .then(function (reg) {
-            console.log("[PWA Builder] Service worker has been registered for scope: " + reg.scope);
-          });
-      }
-    }
-  </script>
+		// Check compatibility for the browser we're running this in
+		if ("serviceWorker" in navigator) {
+			if (navigator.serviceWorker.controller) {
+				console.log("[PWA Builder] active service worker found, no need to register");
+			} else {
+				// Register the service worker
+				navigator.serviceWorker
+					.register("pwabuilder-sw.js", {
+						scope: "./"
+					})
+					.then(function (reg) {
+						console.log("[PWA Builder] Service worker has been registered for scope: " + reg.scope);
+					});
+			}
+		}
+	</script>
 </head>
 
 <body>
-  <iframe src="nothing.mp3" allow="autoplay" id="bypassaudio" style="display:none"></iframe>
-  <audio id="audio" autoplay loop style="display:none">
-    <source src="floss loop.mp3">
-  </audio>
-  <h1
-    style="font-family: 'Comic Sans MS', 'Comic Sans', cursive; text-align: center; color: white; background: rgba(0, 0, 0, 0.5);">
-    😂 I BE FLOSSING 😂</h1>
-  <video oncontextmenu="return false;" preload="true" src="floss.webm" autoplay loop muted
-    style="user-select: none; position: fixed; right: 0; bottom: 0; width: auto; min-width: 100%; height: auto; min-height: 100%; z-index: -100; background-size: cover;">
+	<iframe src="nothing.mp3" allow="autoplay" id="bypassaudio" style="display:none"></iframe>
+	<audio id="audio" autoplay loop style="display:none">
+		<source src="floss loop.mp3">
+	</audio>
+	<h1
+		style="font-family: 'Comic Sans MS', 'Comic Sans', cursive; text-align: center; color: white; background: rgba(0, 0, 0, 0.5);">
+		😂 I BE FLOSSING 😂</h1>
+	<video oncontextmenu="return false;" preload="true" src="floss.webm" autoplay loop muted
+		style="user-select: none; position: fixed; right: 0; bottom: 0; width: auto; min-width: 100%; height: auto; min-height: 100%; z-index: -100; background-size: cover;">
 
 </body>
 
